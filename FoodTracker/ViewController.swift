@@ -27,7 +27,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
         textField.resignFirstResponder()
         return true
     }
-
+    
     // MARK: Actions
     @IBAction func selectImageFromPhotoLibrary(_ sender: UITapGestureRecognizer) {
         // Hide the keyboard.
